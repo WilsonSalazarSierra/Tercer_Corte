@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/NewXMLSchema" xmlns:tns="http://www.example.org/NewXMLSchema" elementFormDefault="qualified">
+
+    <complexType name="estudiante">
+    	<sequence>
+    		<element name="codigo" type="string"></element>
+    		<element name="nombre" type="string"></element>
+    		<element name="apellidos" type="string"></element>
+    		<element name="cedula" type="int"></element>
+    	</sequence>
+    </complexType>
+
+    
+
+
+    <complexType name="docente">
+    	<sequence>
+    		<element name="codigo" type="string"></element>
+    		<element name="nombre" type="string"></element>
+    		<element name="apellido" type="string"></element>
+    		<element name="cedula" type="int"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="materia">
+    	<sequence>
+    		<element name="codigo" type="string"></element>
+    		<element name="nombre" type="string"></element>
+    		<element name="creditos" type="int"></element>
+    		<element name="descripcion" type="string"></element>
+    	</sequence>
+    </complexType>
+
+
+    <element name="curso" type="tns:cursos"></element>
+
+    <complexType name="cursos">
+    	<sequence>
+    		<element name="esudiante" type="tns:estudiante"></element>
+    		<element name="materia" type="tns:materia"></element>
+    		<element name="docente" type="tns:docente"></element>
+    	</sequence>
+    </complexType>
+</schema>

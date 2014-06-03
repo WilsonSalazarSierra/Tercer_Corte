@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CURSOS SYSTEM "NewFile.dtd" >
+<CURSOS>
+    <SEMESTRE/> 
+  <ESTUDIANTE>
+    <codigo_est>codigo_est</codigo_est>
+    <nombre_est>nombre_est</nombre_est>
+    <apellido_est>apellido_est</apellido_est>
+    <cedula_est>cedula_est</cedula_est>
+  </ESTUDIANTE>
+  <MATERIA>
+    <CODIGO_MAT/>
+    <nombre_mat>nombre_mat</nombre_mat>
+    <descripcion_mat>descripcion_mat</descripcion_mat>
+    <creditos_mat>creditos_mat</creditos_mat>
+  </MATERIA>
+  <DOCENTE>
+    <codigo_doc>codigo_doc</codigo_doc>
+    <nombre_doc>nombre_doc</nombre_doc>
+    <apellido_doc>apellido_doc</apellido_doc>
+    <cedula_doc>cedula_doc</cedula_doc>
+  </DOCENTE>
+</CURSOS>

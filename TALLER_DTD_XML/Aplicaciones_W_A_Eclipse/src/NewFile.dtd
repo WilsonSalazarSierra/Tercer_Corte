@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT cursos (semestre, estudiante, docente, materia)>
+<!ELEMENT semestre (#PCDATA)>
+<!ELEMENT estudiante (codigo_est,nombre_est,apellido_est,cedula_est)>
+<!ELEMENT codigo_est (#PCDATA)>
+<!ELEMENT nombre_est (#PCDATA)>
+<!ELEMENT apellido_est (#PCDATA)>
+<!ELEMENT cedula_est (#PCDATA)>
+<!ELEMENT materia (codigo_mat,nombre_mat,descripcion_mat,creditos_mat)>
+<!ELEMENT codigo_mat (#PCDATA)>
+<!ELEMENT nombre_mat (#PCDATA)>
+<!ELEMENT descripcion_mat (#PCDATA)>
+<!ELEMENT creditos_mat (#PCDATA)>
+<!ELEMENT docente (codigo_doc,nombre_doc,apellido_doc,cedula_doc)>
+<!ELEMENT codigo_doc (#PCDATA)>
+<!ELEMENT nombre_doc (#PCDATA)>
+<!ELEMENT apellido_doc (#PCDATA)>
+<!ELEMENT cedula_doc (#PCDATA)>
